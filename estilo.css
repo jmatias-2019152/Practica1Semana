@@ -1,0 +1,47 @@
+body{
+    
+    font-family: Arial, Helvetica;
+    background: #E8C39E;
+    background-image: url("Imagenes/logo.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.cuadradoLogo{
+    width: 200px;
+    height: 200px;
+    background: #E2FABB;
+    left: 200px;
+}
+
+.cuadrado{
+    width: 450px;
+    height: 400px;
+    background: #E2FABB;
+    position: relative;
+}
+
+.menu{
+    list-style: none;
+    padding: 0;
+    background: #092327;
+    width: 90%;
+    max-width: 1035px;
+    margin: auto;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover{
+    background: #ef8354;
+}
