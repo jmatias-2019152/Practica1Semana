@@ -33,7 +33,7 @@ body {
 
 .logo a {
     text-decoration: none;
-    color: #fff;
+    color: #887a7a;
     text-transform: uppercase;
     font-size: 20px;
 }
@@ -48,7 +48,7 @@ body {
 }
 
 .navbar a:hover {
-    background: #fff;
+    background: #9c27b0;
 }
 
 .header {
