@@ -1,0 +1,147 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --bg-color: #081b29;
+    --second-bg-color: #112e42;
+    --text-color: #f9f9f9;
+    --main-color: 	#192c41;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+
+body{
+   background: var(--bg-color);
+   color: var(--text-color);
+
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.Logo{
+    font-size: 2.5em;
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+.navigation a{
+    font-size: 1.7rem;
+    color: var(--text-color);
+    font-weight: 500;
+    margin-left: 3.5rem;
+    transition: .3s;
+}   
+
+.navigation a:hover, .navigation a.active{
+    color: var(--main-color);
+
+}
+
+#menu-icon{
+    font-size: 3.6rem;
+    color: var(--text-color);
+    cursor: pointer;
+    display: none;
+}
+
+section{
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+
+}
+
+.TituloPrincipal{
+    display: flex;
+    align-items: center;
+    padding: 0 9%;
+    background: url('Images/alex-morgan.jpg')no-repeat;
+    background-size: right;
+    background-position: right;
+}
+
+
+
+.casa-contenedor{
+    max-width: 60rem;
+}
+
+
+.casa-contenedor h1{
+    font-size: 5.6rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.casa-contenedor .texto-animado{
+    position: relative;
+    width: 32.8rem;
+}
+
+.casa-contenedor .texto-animado h3{
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: transparent;
+    -webkit-text-stroke: .7px #359381;
+}
+
+
+.casa-contenedor p{
+    font-size: 1.6rem;
+    margin: 2rem 0 4rem;
+}
+
+
+.home-sci{
+    position: absolute;
+    bottom: 4rem;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-sci a{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: .2rem solid var(--main-color);
+    border-radius: 50%;
+    font-size: 20px;
+    color: var(--main-color);
+}
+
+.home-imgHover{
+    top: 0;
+    right: 0;
+    width: 45%;
+    height: 70%;
+    background: transparent;
+}
+
