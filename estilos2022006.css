@@ -6,6 +6,7 @@ body {
 
 h3{
     background-color: greenyellow;
+    margin-top: 1px;
 }
 
 p {
@@ -42,3 +43,27 @@ body{
 table{
     text-align: center;
 }
+
+#columna1{
+    column-count:2;
+    column-gap:70px;
+    column-rule:4px double gray;
+    
+}
+
+#columna2{
+    column-count:2;
+    column-gap:70px;
+    column-rule:4px double gray;
+}
+
+#columna3{
+    column-count:2;
+    column-gap:70px;
+    column-rule:4px double gray;
+}
+
+#siete{
+    margin-top: 20px;
+}
+ 
